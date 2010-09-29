@@ -1,6 +1,6 @@
 This module is porting from p5-string-filter(http://github.com/kazuho/p5-string-filter) to PHP.
 
-* This module is too much experimental.
+* This module is experimental.
 
 System requirement
   PHP 5.3
