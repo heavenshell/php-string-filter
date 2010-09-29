@@ -1,3 +1,7 @@
 This module is too experimental.
 
 This module is porting from p5-string-filter(http://github.com/kazuho/p5-string-filter)
+
+System requirement
+  PHP 5.3
+  lime.php
