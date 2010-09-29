@@ -41,6 +41,7 @@
  * @category  String
  * @package   String\Filter
  * @version   $id$
+ * @copyright (C) 2010 Cybozu Labs, Inc.  Written by Kazuho Oku.
  * @copyright 2009-2010 Shinya Ohyanagi
  * @author    Shinya Ohyanagi <sohyanagi@gmail.com>
  * @license   New BSD License
