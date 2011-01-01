@@ -2,11 +2,11 @@
 /**
  * String\Filter - a regexp-based string filter.
  *
- * The original module is String::Filter(Perl module)..
+ * The original module is String::Filter(Perl module).
  *
  * PHP version 5.3
  *
- * Copyright (c) 2009-2010 Shinya Ohyanagi, All rights reserved.
+ * Copyright (c) 2010-2011 Shinya Ohyanagi, All rights reserved.
  *
  * Redistribution and use in source and binary forms, with or without
  * modification, are permitted provided that the following conditions
@@ -41,8 +41,8 @@
  * @category  String
  * @package   String\Filter
  * @version   $id$
- * @copyright (C) 2010 Cybozu Labs, Inc.  Written by Kazuho Oku.
- * @copyright 2009-2010 Shinya Ohyanagi
+ * @copyright (c) 2010 Cybozu Labs, Inc.  Written by Kazuho Oku.
+ * @copyright (c) 2010-2010 Shinya Ohyanagi
  * @author    Shinya Ohyanagi <sohyanagi@gmail.com>
  * @license   New BSD License
  * @link      http://search.cpan.org/~kazuho/String-Filter-0.01/
@@ -65,7 +65,7 @@ use String;
  * @package   String\Filter
  * @version   $id$
  * @copyright (C) 2010 Cybozu Labs, Inc.  Written by Kazuho Oku.
- * @copyright 2010 Shinya Ohyanagi
+ * @copyright (C) 2010-2011 Shinya Ohyanagi
  * @author    Shinya Ohyanagi <sohyanagi@gmail.com>
  * @license   New BSD License
  * @link      http://search.cpan.org/~kazuho/String-Filter-0.01/
@@ -153,7 +153,7 @@ class Filter
         $pattern = str_replace(
             '/', '\\/', implode('|', array_keys($this->_rules))
         );
-        $this->_ra    = sprintf('/%s/', $pattern);
+        $this->_ra = sprintf('/%s/', $pattern);
 
         return $this;
     }
@@ -161,7 +161,7 @@ class Filter
     /**
      * Converts the input string using the given rules and returns it.
      *
-     * @param  mixed $text String to convert.
+     * @param  mixed $text String to convert
      * @access public
      * @return String Converted string
      */
